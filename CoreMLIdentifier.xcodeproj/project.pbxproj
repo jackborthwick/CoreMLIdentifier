@@ -14,6 +14,8 @@
 		9074D4E01F75D3F700E7B8AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9074D4DE1F75D3F700E7B8AC /* LaunchScreen.storyboard */; };
 		9074D4EB1F75D3F700E7B8AC /* CoreMLIdentifierTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9074D4EA1F75D3F700E7B8AC /* CoreMLIdentifierTests.swift */; };
 		9074D4F61F75D3F800E7B8AC /* CoreMLIdentifierUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9074D4F51F75D3F800E7B8AC /* CoreMLIdentifierUITests.swift */; };
+		9074D5061F75E75600E7B8AC /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9074D5051F75E75600E7B8AC /* Inceptionv3.mlmodel */; };
+		9074D5081F75E93C00E7B8AC /* Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9074D5071F75E93C00E7B8AC /* Objects.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		9074D4F11F75D3F700E7B8AC /* CoreMLIdentifierUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CoreMLIdentifierUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9074D4F51F75D3F800E7B8AC /* CoreMLIdentifierUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreMLIdentifierUITests.swift; sourceTree = "<group>"; };
 		9074D4F71F75D3F800E7B8AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9074D5051F75E75600E7B8AC /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Inceptionv3.mlmodel; path = ../../../Downloads/Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		9074D5071F75E93C00E7B8AC /* Objects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Objects.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +81,7 @@
 		9074D4C91F75D3F700E7B8AC = {
 			isa = PBXGroup;
 			children = (
+				9074D5051F75E75600E7B8AC /* Inceptionv3.mlmodel */,
 				9074D4D41F75D3F700E7B8AC /* CoreMLIdentifier */,
 				9074D4E91F75D3F700E7B8AC /* CoreMLIdentifierTests */,
 				9074D4F41F75D3F800E7B8AC /* CoreMLIdentifierUITests */,
@@ -103,6 +108,7 @@
 				9074D4DC1F75D3F700E7B8AC /* Assets.xcassets */,
 				9074D4DE1F75D3F700E7B8AC /* LaunchScreen.storyboard */,
 				9074D4E11F75D3F700E7B8AC /* Info.plist */,
+				9074D5071F75E93C00E7B8AC /* Objects.swift */,
 			);
 			path = CoreMLIdentifier;
 			sourceTree = "<group>";
@@ -261,6 +267,8 @@
 			files = (
 				9074D4D81F75D3F700E7B8AC /* ViewController.swift in Sources */,
 				9074D4D61F75D3F700E7B8AC /* AppDelegate.swift in Sources */,
+				9074D5081F75E93C00E7B8AC /* Objects.swift in Sources */,
+				9074D5061F75E75600E7B8AC /* Inceptionv3.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +435,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B6KTEGLXGH;
 				INFOPLIST_FILE = CoreMLIdentifier/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jackborthwick.CoreMLIdentifier;
@@ -441,6 +450,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B6KTEGLXGH;
 				INFOPLIST_FILE = CoreMLIdentifier/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.jackborthwick.CoreMLIdentifier;
