@@ -112,7 +112,7 @@ class ViewController: UIViewController {
         
         if identifier == objectLabel.text! {
             currentScore += 1
-            //nextObject()
+            nextObject()
         }
     }
     
